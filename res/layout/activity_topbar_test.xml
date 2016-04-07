@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.topbar.TopBarTest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <custom.TopBar
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:custom="http://schemas.android.com/apk/res/com.example.topbar"
+	    android:id="@+id/topBar"
+	    android:layout_width="match_parent"
+	    android:layout_height="80dp"
+	    android:background="#ffccff"
+	    custom:leftText="Back"
+	    custom:leftTextColor="#000000"
+	    custom:leftBackground="#ff0000"
+	    custom:rightText="More"
+	    custom:rightTextColor="#000000"
+	    custom:rightBackground="#ff0000"
+	    custom:titleText="自定义标题"
+	    custom:titleTextColor="#123412"
+	    custom:titleTextSize="12sp"
+	    />
+</LinearLayout>
